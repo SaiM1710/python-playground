@@ -35,7 +35,7 @@ print("Enter choice", "\n", "1. Rock", "\n", "2. paper", "\n", "3. scissor ")
 choice = int(input("Enter your choice:"))
 print(rpc_game(choice))
 k = input("Enter Y to continue playing and N to stop:")
-while (k == "Y" or k=='y'):
+while (k == "Y" or k=='y'):ā
     q = int(input("Enter your choice:"))
     rpc_game(q)
     k = input("Enter Y to continue playing and N to stop:")
